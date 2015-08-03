@@ -57,6 +57,6 @@ class CacheGeneratorExtension implements ExtensionInterface
      */
     public function getAlias()
     {
-        // TODO: Implement getAlias() method.
+        return 'cache_generator';
     }
 }
