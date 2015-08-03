@@ -3,7 +3,8 @@
     "description": "A simple library that manage Cache generation based on given configuration",
     "require": {
         "symfony/dependency-injection": "^2.7",
-        "symfony/config": "^2.7"
+        "symfony/config": "^2.7",
+        "doctrine/cache": "^1.4"
     },
     "authors": [
         {
@@ -13,8 +14,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "CacheGenerator": "src/"
-
+            "CacheGenerator\\": "src",
+            "Temp\\": "temp"
         }
     }
 }

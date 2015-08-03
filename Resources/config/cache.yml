@@ -1,1 +1,6 @@
-cache_generator:
+services:
+    dummy_manager:
+        class: Temp\DummyManager
+        arguments: ["foo", "bar", "baz"]
+        tags:
+            - { name: cache_generator}
